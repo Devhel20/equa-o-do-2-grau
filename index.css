@@ -1,0 +1,23 @@
+inicio {
+    text-align:center;
+}
+
+img{
+    width:800px;
+    height:600px;
+    align-itens:center;
+    
+}
+
+section{
+    align-items:center;
+}
+
+. separar {
+    font-size:50px;
+}
+
+button {
+    height:400px;
+    width:400px;
+}
