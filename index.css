@@ -1,0 +1,43 @@
+. inicio {
+    text-align:center;
+}
+
+img{
+    width:800px;
+    height:600px;
+    align-itens:center;
+    
+}
+
+.teste section{
+    align-items:center;
+    align-text:center;
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+. separar {
+    font-size:50px;
+}
+
+input {
+    width:150px;
+    height:150px;
+    font-size:80px;
+    border:10px solid black;
+}
+
+button {
+    width:400px;
+    height:150px;
+    font-size:30px;
+    border:10px solid black;
+}
+
+.bt {
+    display:flex;
+    justify-content:space-between;
+    align-text:center;
+    align-items:center;
+}
