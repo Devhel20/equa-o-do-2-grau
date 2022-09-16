@@ -3,7 +3,7 @@
 }
 
 img{
-    width:800px;
+    width:85vw;
     height:600px;
     align-itens:center;
     
@@ -22,22 +22,62 @@ img{
 }
 
 input {
-    width:150px;
-    height:150px;
-    font-size:80px;
+    width:21vw;
+    height:190px;
+    font-size:10vw;
     border:10px solid black;
 }
 
 button {
-    width:400px;
+    width:45vw;
     height:150px;
-    font-size:30px;
+    font-size:3.2vw;
     border:10px solid black;
 }
 
-.bt {
+
+ .bd {
+     position:relative;
+ } 
+ 
+ .bd2 {
+     position:absolute;
+     margin-left:-250px;
+     margin-top:-75px;
+     left:50%;
+     top:50%;
+ }
+ 
+.calculo section {
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     align-text:center;
+     font-size:3.9vw;
+ }
+ 
+.calculo {
+    border:3.5px solid black;
+}
+
+.etapa section {
     display:flex;
     justify-content:space-between;
-    align-text:center;
     align-items:center;
+    align-text:center;
+    
 }
+
+.tex {
+    font-size:8vw;
+}
+
+.text {
+    font-size:5vw;
+}
+
+.final {
+    font-size:2vw;
+    border: 3px solid black;
+}
+    
