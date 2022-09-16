@@ -15,11 +15,20 @@
   <link rel="stylesheet" href="index.css"/>
   <title>CALCULADORA DE EQUAÇÃO DO SEGUNDO GRAU</title>
   <style>#cabecario {height: 5%; width:100%; margin:1; padding:1; background-color:cbcbcb; font-size:50px;}
-  #inicio {background-color:#ffffff; width:920px; height:900px; float:right; font-size:25px;}
-  #lateral {background-color:#cbcbcb; width:5px; height:900px; float:left;}
-  #separar {background-color:#f8f8f8; width:920px;height:500px; clear:both; float:right; font-size:50px; align-items:center;}
-  #teste {clear:both; width:920px; height:700px; background-color:#f8f8f8; font-size:80px; float:right;}
-  #bd {width:920px; height:200px; clear:both; background-color:#f8f8f8; float:right; font-size:80px;}
+  #inicio {background-color:#ffffff; width:98vw; height:900px; float:right; font-size: 3vw;}
+  #lateral {background-color:#cbcbcb; width:0; height:0px; float:left;}
+  #separar {background-color:#f8f8f8; width:98vw;height:500px; clear:both; float:right; font-size:5vw; align-items:center;}
+  #teste {clear:both; width:98vw; height:800px; background-color:#f8f8f8; font-size:8.05vw; float:right;}
+  #bd {width:98vw; height:200px; clear:both; background-color:#f8f8f8; float:right; font-size:80px;}
+  #bd2 {background-color:#f8f8f8;}
+  #calculo {background-color:#f8f8f8;
+  width:98vw;height:1100px; clear:both; float:right;}
+  #separar2 {width:98vw;
+  height:50px; clear:both;}
+  #texto {width:98vw; clear:both;}
+  #separar3 {width:98vw; height:180px;
+  clear:both;}
+  #final {background-color:#d7d7d7; width:98vw; height:150px; clear:both;}
   
   </style>
 </head>
@@ -28,8 +37,8 @@
   <div id="inicio" class="inicio">
       <main>
           <section>
-              <h1>Este é um site para calcular as raízes de uma equação do segundo grau através da utilização da fórmula delta e fórmula de baskhara.</h1>
-              <img src="Site imagem.jpg"></img>
+              <h1>Este é um site para calcular as raízes de uma equação do segundo grau através da utilização da fórmula delta e fórmula de bhaskara.</h1>
+              <img src="file:///storage/emulated/0/Meu site/Grau.jpg">
 
           </section>
       </main>
@@ -45,14 +54,14 @@
       <main>
           <section>
               <form method="get" action="">
-                  <input type="num" name="a" id="a">x² 
-                  <input type="num" name="b" id="b">x
-                  <input type="num" name="c" id="c">
+                  <input type="text" name="a" id="a1">x² 
+                  <input type="text" name="b" id="b1">x
+                  <input type="text" name="c" id="c1">
       <main>
           <section>
-              <h1>↑</h1>
-              <h1>↑</h1>
-              <h1>↑</h1>
+              <h1>⬆</h1>
+              <h1>⬆</h1>
+              <h1>⬆</h1>
           </section>
       </main>
       <main>
@@ -68,9 +77,133 @@
   </div>
   
   <div id="bd" class="bd">
-      <button id="botao"> <h1>CALCULAR</h1>
-      </button>
-      <script type="text/javascript" src="index.js"></script>           
+      <div id="bd2" class="bd2">       
+          <button id="botao"> <h1>CALCULAR</h1>
+          </button>
+          <script type="text/javascript" src="/storage/emulated/0/Meu site/index.js"></script>
+      </div>          
+  </div>
+  <div id="calculo" class="calculo">
+      <script type="text/javasvript" src="/storage/emulated/0/Meu site/index.js"></script>
+      <main>
+          <section>
+              <h1 id="nule">   
+                  Δ = b² -4ac
+              </h1>
+              <h1>
+                  x = -b ± √Δ / 2a
+              </h1>        
+                  
+          </section>
+      </main>
+      <main>
+          <section id="etapa1" class="etapa">
+              <h1 id="1etapa">
+                  
+                  
+              </h1>
+              <h1 id="11etapa">
+                  
+                  
+              </h1>
+          </section>
+      </main>
+      <main>
+          <section class="etapa2">
+              <h1 id="2etapa">
+                   
+                  
+              </h1>
+              <h1 id="22etapa">               
+              </h1>
+          </section>
+      </main>
+      <main>
+          <section class="etapa3">
+              <h1 id="3etapa">
+                  
+                  
+              </h1>
+              <h1 id="33etapa">
+                  
+              </h1>
+              
+          </section>
+      </main>
+      <main>
+          <section>
+              <h1 id="4etapa">
+                  
+                  
+              </h1>
+              <h1 id="44etapa"></h1>
+          </section>
+      </main>
+      <main>
+          <section>
+              <h1>
+                  
+              </h1>
+              <h1 id="etapa55">
+                  
+              </h1>
+          </section>
+      </main>
+      <main>
+          <section>
+              <h1>
+                  
+              </h1>
+              <h1 id="66etapa">
+                  
+              </h1>
+          </section>
+      </main>
+      
+      
+  </div>
+  <div id="separar2">            
+  </div>
+  
+  <div id="texto">
+      <h1 class="tex">
+          O QUÊ É DELTA?
+      </h1>
+      <p class="text">
+          Delta é comumente representado pela letra grega Δ (Delta) e recebe esse nome pelo fato de discriminar os resultados de uma equação da seguinte forma: Δ < 0, então a equação não possui resultados reais; Δ = 0, então a equação possui apenas um resultado real ou possui dois resultados iguais.
+      </p>
+      <h1 class="tex">
+          O QUÊ É FÓRMULA DE BHASKARA?
+      </h1>
+      <p class="text">
+          A fórmula de Bhaskara é um método resolutivo para equações do segundo grau cujo nome homenageia o grande matemático indiano que a demonstrou. Essa fórmula nada mais é do que um método para encontrar as raízes reais de uma equação do segundo grau fazendo uso apenas de seus coeficientes.
+          
+      </p>
+      <h1 class="tex">
+          PARA QUE SERVE UMA EQUAÇÃO DO 2°GRAU ?
+      </h1>
+      <p class="text">
+          A equação de segundo grau é utilizada para encontrar valores reais de “X”, ou incógnita, em uma sentença matemática. A incógnita, que sempre é um número desconhecido, pode ser denominado como raízes da equação, e é a partir dos coeficientes que ela poderá ser desvendada.
+          A Função Quadrática ou de 2º Grau tem várias aplicações no cotidiano. Ela serve, por exemplo, para calcular o lançamento e o movimento de projéteis como balas de canhão e foguetes, para presumir o ângulo de reflexão de faróis de carros, conjecturar o ângulo da antena parabólica, entre outras coisas.
+      </p>
+      
+  </div>
+  
+  <div id="separar3"></div>
+  
+  <div id="final" class="final">
+      <main>
+          <section>
+              <h1>
+              •equação do 2° grau
+              •calculadora 
+              •calcular equação do 2° grau                                         
+              •mat
+              </h1>
+          </section>
+       </main>
+       <h1>_____________________DEVHEL_________________________</h1>
+      
   </div>
   
 </body>
