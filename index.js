@@ -1,7 +1,16 @@
+const bm = document.getElementById ("bm")
+bm.addEventListener ("click", clique)
+function clique () {
+    const nav = document.getElementById ("link")
+    nav.classList.toggle ('active')
+    const nav2 = document.getElementById ("link2")
+    nav2.classList.toggle ('active')
+}
 const botao = document.getElementById ("botao")
 var a = document.getElementById ("a1")
 var b = document.getElementById ("b1")
 var c = document.getElementById ("c1")
+
 botao.addEventListener ("click", funcao)
 function funcao (){ 
     if (isNaN (a) == true && isNaN (b)== true && isNaN (c) == true){
